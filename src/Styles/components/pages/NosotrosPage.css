@@ -1,0 +1,47 @@
+.cultura p {
+    font-size: 12px;
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona {
+    background-color: rgb(215, 193, 171);
+    margin: 10px;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
+
+.persona:hover {
+    transform: scale(1.2);
+    background-color: rgb(132, 111, 90);
+}
+
+.persona img {
+    max-width: 60%;
+}
+
+.persona h5,
+.persona h6 {
+    margin: 0;
+    font-weight: normal;
+    color: rgb(7, 33, 7);
+    text-align: center;
+}
+
+.persona h5 {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.persona h6 {
+    font-size: 12px;
+}
+
+.persona p {
+    font-size: 10px;
+    text-align: justify;
+}

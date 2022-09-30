@@ -1,0 +1,55 @@
+h2 {
+    color: rgb(7, 37, 7);
+    font-weight: 400;
+}
+
+.home {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.testimonio {
+    width: 25%;
+}
+
+.columnasHome {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 {
+    margin-top: 45px;
+    padding-right: 0;
+}
+
+.home p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.testimonios {
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonio {
+    border: 1px solid rgb(157, 130, 82);
+    padding: 16px;
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.testimonio .cita {
+    text-align: justify;
+    font-style: italic;
+    font-size: 18px;
+    display: table-row;
+}
+
+.testimonio .autor {
+    font-size: 10px;
+    text-align: left;
+    display: table-row;
+}

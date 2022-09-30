@@ -1,0 +1,32 @@
+.servicio {
+    background-color: rgb(206, 234, 165);
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.servicio:hover {
+    transform: scale(1.1);
+}
+
+.servicio .info h4 {
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.servicio .info p {
+    font: 13px;
+}
+
+.servicio img {
+    border-radius: 5px;
+    display: block;
+    max-width: 225px;
+}
+
+.servicio:nth-child(even) {
+    flex-direction: row;
+}
