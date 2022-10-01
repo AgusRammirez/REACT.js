@@ -7,7 +7,7 @@ const ServiciosPage = (props) => {
         <main className="holder">
         <h2>Servicios</h2>
         <div className="servicio">
-            <img src="./img/mantenimiento.jpg" alt=""/>
+            <img src="../images/mantenimiento.jpg" alt=""/>
             <div className="info">
                 <h4>Mantenimiento de jardines.</h4>
                 <hr/>
@@ -15,7 +15,7 @@ const ServiciosPage = (props) => {
             </div>
         </div>
         <div className="servicio">
-            <img src="./img/arreglosflorales.jpg" alt=""/>
+            <img src="../images/arreglosflorales.jpg" alt=""/>
             <div className="info">
                 <h4>Arreglos florales.</h4>
                 <hr/>
@@ -23,7 +23,7 @@ const ServiciosPage = (props) => {
             </div>
         </div>
         <div className="servicio">
-            <img src="./img/aceites.jpg" alt=""/>
+            <img src="../images/aceites.jpg" alt=""/>
             <div className="info">
                 <h4>Aceites esenciales</h4>
                 <hr/>
@@ -31,7 +31,7 @@ const ServiciosPage = (props) => {
             </div>
         </div>
         <div className="servicio">
-            <img src="./img/complementos.jpg" alt=""/>
+            <img src="../images/complementos.jpg" alt=""/>
             <div className="info">
                 <h4>Complementos alimenticios.</h4>
                 <hr/>

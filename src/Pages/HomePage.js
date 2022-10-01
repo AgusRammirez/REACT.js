@@ -6,7 +6,7 @@ const HomePage = (props) => {
     return (
         <main className="holder">
             <div>
-                <img src="./img/home.jpg" width="100%" alt="cultivo" />
+                <img src="../images/home.jpg" width="100%" alt="cultivo" />
             </div>
             <div className="columnasHome">
                 <section className="home">
@@ -23,17 +23,17 @@ const HomePage = (props) => {
                 <h2>Testimonios clientes</h2>
                 <div className="testimonios">
                     <div className="testimonio">
-                        <span><img src="./img/comillas.png" width="20%" alt="" /></span>
+                        <span><img src="../images/comillas.png" width="20%" alt="" /></span>
                         <span className="cita">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates cum dicta quia, soluta aliquid earum!</span>
                         <span className="autor">Sonia Lopez - ayurveda.com</span>
                     </div>
                     <div className="testimonio">
-                        <span><img src="./img/comillas.png" width="20%" alt="" /></span>
+                        <span><img src="../images/comillas.png" width="20%" alt="" /></span>
                         <span className="cita">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates cum dicta quia, soluta aliquid earum!</span>
                         <span className="autor">Bernardo Gonzalez - sanamente.com</span>
                     </div>
                     <div className="testimonio">
-                        <span><img src="./img/comillas.png" width="20%" alt="" /></span>
+                        <span><img src="../images/comillas.png" width="20%" alt="" /></span>
                         <span className="cita">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates cum dicta quia, soluta aliquid earum!</span>
                         <span className="autor">Petuñia Gomez - floreria.com</span>
                     </div>

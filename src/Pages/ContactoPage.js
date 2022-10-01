@@ -2,6 +2,7 @@ import React from "react";
 
 import "../Styles/components/pages/ContactoPage.css";
 
+
 const ContactoPage = (props) => {
     return (
         <main className="holder contacto">

@@ -7,16 +7,16 @@ const GaleriaPage = (props) => {
         <main className="holder">
             <h2>Galeria</h2>
             <div className="galeria">
-                <img src="img/img1.jpg" alt="" />
-                <img src="img/img2.jpg" alt="" />
-                <img src="img/img3.jpg" alt="" />
-                <img src="img/img4.jpg" alt="" />
-                <img src="img/img5.jpg" alt="" />
-                <img src="img/img6.jpg" alt="" />
-                <img src="img/img7.jpg" alt="" />
-                <img src="img/img8.jpg" alt="" />
-                <img src="img/img9.jpg" alt="" />
-                <img src="img/img10.jpg" alt="" />
+                <img src={"../images/img1.jpg"} />
+                <img src={"../images/img2.jpg"} />
+                <img src={"../images/img3.jpg"} />
+                <img src={"../images/img4.jpg"} />
+                <img src={"../images/img5.jpg"} />
+                <img src={"../images/img6.jpg"} />
+                <img src={"../images/img7.jpg"} />
+                <img src={"../images/img8.jpg"} />
+                <img src={"../images/img9.jpg"} />
+                <img src={"../images/img10.jpg"} />
             </div>
         </main>
     );
