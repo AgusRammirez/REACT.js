@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import NovedadItem from "../Components/layout/novedades/NovedadItem";
-
+import "../Styles/components/pages/NovedadesPage.css";
 const NovedadesPage = (props) => {
    const [loading, setLoading] = useState(false);
    const [novedades, setNovedades] = useState([]);
@@ -20,7 +20,7 @@ const NovedadesPage = (props) => {
 
     return (
         <section className="holder">
-            <h2>Novedades</h2>
+            <h1 className="tituloNovedad">NOVEDADES</h1>
             {
                 loading ? (
                     <p>Cargando...</p>

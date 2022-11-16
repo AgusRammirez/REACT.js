@@ -1,0 +1,15 @@
+body {
+    text-align: justify;
+}
+.tituloNovedad{
+    padding-top: 10px;
+}
+h2{
+    font-weight: bold;
+    color: rgb(37, 100, 37);
+    margin: 40px 40px 0 0;
+}
+h4{
+    font-weight: lighter;
+    font-style: italic;
+}
