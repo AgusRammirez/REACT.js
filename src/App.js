@@ -11,7 +11,7 @@ import ContactoPage from './Pages/ContactoPage';
 import HomePage from './Pages/HomePage';
 import GaleriaPage from './Pages/Galeria';
 import NosotrosPage from './Pages/NosotrosPage';
-import NovedadesPage from './Pages/Novedades';
+import NovedadesPage from './Pages/NovedadesPage';
 import ServiciosPage from './Pages/Servicios';
 
 function App() {
